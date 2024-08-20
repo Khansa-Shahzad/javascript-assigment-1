@@ -1,0 +1,72 @@
+
+    <!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Simple Web Page</title>  
+    <script src="app.js"></script>
+   
+    <body>
+        <body onload="getPhoneModel()">
+            <body onload="findIndexOfLetter()"> 
+                <h1>Character Finder</h1>  
+                <p id="result"></p>
+                
+                <h1>Word Replacement Program</h1>
+    <p>Click the button below to replace "Hyder" with "Islam" in "Hyderabad".</p>
+    <button onclick="replaceWord()">Replace Word</button>
+    <p id="result"></p>
+
+    <h1>Replace "and" with "&"</h1>
+    <p>Click the button below to replace all occurrences of "and" in the message.</p>
+    <button onclick="replaceWord()">Replace Word</button>
+    <p id="result"></p>
+
+    <h1>Convert String to Number</h1>
+    <button onclick="convertStringToNumber()">Convert</button>
+    <div id="result"></div>
+
+    <h1>Guess the Number Game</h1>
+    <p>Enter a number between 1 and 10:</p>
+    <input type="number" id="userInput" min="1" max="10">
+    <button onclick="guessNumber()">Guess</button>
+    <p id="result"></p>
+       
+    <h1>Display Weight</h1>
+    <p>Enter your weight (e.g., 72, 72.5, 72 kg, 72.5 lbs):</p>
+    <input type="text" id="weightInput" placeholder="Enter your weight...">
+    <button onclick="displayWeight()">Display Weight</button>
+    <p id="result"></p>
+
+    <h1>Random Number Generator</h1>
+    <button onclick="generateRandomNumber()">Generate Random Number</button>
+    <div id="result"></div>
+
+    <h1>Coin Toss Simulation</h1>
+    <button onclick="coinToss()">Toss Coin</button>
+    <p id="result"></p>
+
+    <h1>Dice Roll Simulation</h1>
+  <div class="dice" id="diceValue">-</div>
+  <button onclick="rollDice()">Roll Dice</button>
+
+  <h1>Absolute Value Calculator</h1>
+  <label for="number">Enter a number:</label>
+  <input type="number" id="number" placeholder="Enter a number">
+  <button onclick="calculateAbsolute()">Calculate Absolute Value</button>
+  <div class="result" id="result"></div>
+
+  <h1>Negative Floating Point Number Input</h1>
+  <label for="number">Enter a negative floating point number:</label>
+  <input type="number" id="number" step="any" placeholder="e.g. -3.14">
+  <button onclick="displayNumber()">Submit</button>
+  <div class="result" id="result"></div>
+
+  <h1>Positive Integer Input</h1>
+  <label for="number">Enter a positive integer:</label>
+  <input type="number" id="number" min="1" placeholder="e.g. 5">
+  <button onclick="displayNumber()">Submit</button>
+  <div class="result" id="result"></div>
+</body>  
+</html>
